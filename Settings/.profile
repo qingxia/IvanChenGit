@@ -1,0 +1,3 @@
+export ACE_ROOT=~/ACE_wrappers
+export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:$ACE_ROOT/lib 
+export CLICOLOR=1
