@@ -1,2 +1,13 @@
-1, Press Ctrl + D to input EOF in terminal.
+Terminal
+1, Press Ctrl + D to input EOF.
+
+
+Vi
+1, gd/D goes to declaration, local file ....
+2, gg goes to the first line.
+3, G goes to the last line.
+4, gf goes to the file under the cursor, Ctrl + W + F open the file in a horizontal split window. (If the file can be found in the search path, which could be set in .vimrc with set path+=...)
+
+
+
 

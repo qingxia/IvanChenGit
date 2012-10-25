@@ -14,10 +14,12 @@ set si
 
 syntax enable
 
+filetype on
 filetype plugin indent on
 
 set hlsearch
 
 set number
 
+set path+=$ACE_ROOT
 
