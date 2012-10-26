@@ -7,7 +7,12 @@ Vi
 2, gg goes to the first line.
 3, G goes to the last line.
 4, gf goes to the file under the cursor, Ctrl + W + F open the file in a horizontal split window. (If the file can be found in the search path, which could be set in .vimrc with set path+=...)
-
+5, :make well call make, :cn go to the next error, :cc show current error message.
+6, Ctrl + p, Ctrl + n, previous and next word completion.
+7, mX will bookmark the current line and can go back with `X.
+8, Ctrl + i, Ctrl + o, go forward and back between the locations.
+9, [ + Ctrl + i goto the word under the cursor, Ctrl + W + I show the work under the cursor in  a horizontal split window. (also search path) 
+Ctrl + ], Ctrl + T goto and go back for tag under the cursor, need to generate the tags file with ctags and set tags=./tags,... in .vimrc. (Still not working so well, just worked once so far ...)
 
 
 
