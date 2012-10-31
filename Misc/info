@@ -25,4 +25,5 @@ Ctrl + ], Ctrl + T goto and go back for tag under the cursor, need to generate t
 10, % will go the the matching anything, like brace, comments and preprocessor ...
 
 
-
+ACE
+1, Set ACE_DEBUG env variable to any non-zero-length string would enable ACE::debug(), just like ACE::debug(1) call.
