@@ -1,6 +1,7 @@
 Terminal
 1, Press Ctrl + D to input EOF.
 2, kill, send SIGTERM to the process; kill -9 send SIGKILL to the process.
+3, cp -rf folder folder, copy the whole folder; rm -rf folder remove the whole folder.
 
 
 Vi
