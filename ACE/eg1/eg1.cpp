@@ -17,6 +17,9 @@ int main(int argc, char** argv)
     const char* pathname = argc > 1 ? argv[1] : "/index.html";
     const char* server_hostname = argc > 2 ? argv[2] : "ace.ece.uci.edu";
 
+    // Add funcation call for demo.
+    dummy();
+
     ACE_SOCK_Connector connector;
     ACE_SOCK_Stream peer;
     ACE_INET_Addr peer_addr;
