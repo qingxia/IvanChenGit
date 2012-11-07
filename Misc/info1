@@ -1,0 +1,5 @@
+Info about c++ launguage
+
+1, Protected or even private destructor, could be used to ensure dynamic allocation, since if the object allocation on stack compiler will complain there is no destructor ...; in this case we need to supply other interface let the object delete itself.
+
+2, Protected or even private constructor, could be used to ensure singleton.
