@@ -7,6 +7,11 @@ void log(const char* msg)
     ACE::write_n(ACE_STDOUT, msg, strlen(msg));
 }
 
+void dummy()
+{
+
+}
+
 int main(int argc, char** argv)
 {
     const char* pathname = argc > 1 ? argv[1] : "/index.html";
@@ -26,6 +31,7 @@ int main(int argc, char** argv)
         log("connector.connect failed\n");
         return 1;
     }
+    
     
     char buf[BUFSIZ];
 
