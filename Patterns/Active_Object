@@ -1,0 +1,19 @@
+Active Object
+
+Intent:
+The Active Object design pattern decouples method execution from method invocation to enhance concurrency and simplify synchronized access to an object that resides in its own thread of control.
+
+
+Benefits:
+1, Enhance application concurrency by allowing client threads and asynchronous methods executions to run simultaneously; simplify synchronizaton by the scheduler, which evaluates synchronization constraints to guarantee serialized access to servants.
+
+2, Method execution order can differ from the method invocation order.
+
+
+Liabilities:
+1, Performance overhead due to conext switch and data movement.
+
+2, Complicated debugging ...
+
+
+
