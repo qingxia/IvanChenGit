@@ -1,0 +1,2 @@
+1, Flash GC
+Will not remove thing listening on ENTER_FRAME, not stopped MovieClip object, object with running Timer.
