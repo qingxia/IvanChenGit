@@ -1,2 +1,4 @@
 1, Flash GC
 Will not remove thing listening on ENTER_FRAME, not stopped MovieClip object, object with running Timer.
+
+2, The smallest unit for pixel in AS3.0 is 0.05, which means you can move a object in 0.05 pixel far away.
